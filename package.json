@@ -1,10 +1,20 @@
-{
+﻿{
+  "name": "minecraft-verify-backend",
+  "version": "2.0.0",
+  "description": "Secure Discord <-> Minecraft verification backend using Microsoft Device Code flow and Supabase",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["minecraft", "discord", "verification", "microsoft", "supabase"],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.99.3",
     "axios": "^1.13.6",
-    "cors": "^2.8.6",
     "dotenv": "^17.3.1",
-    "express": "^5.2.1",
-    "prismarine-auth": "^2.7.0"
+    "express": "^5.2.1"
   }
 }
